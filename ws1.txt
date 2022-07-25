@@ -1,0 +1,18 @@
+	What is the purpose of the log message you supply to your git commit?
+
+To keep track of the changes you make to each version of your code for yourself and others
+
+
+	What do you think makes a good commit message?
+
+Keeping it simple and short in detail to avoid overcomplicating things
+
+
+	When and how often should I be commiting my work?
+
+As often as you would like but preferably after any major changes or additions that you would like to test
+
+
+	True or False, you should commit all files (including binaries, images, and log files) to git?
+
+True, the entire directory for a code to work needs to be included otherwise others cant run the code
