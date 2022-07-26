@@ -5,7 +5,7 @@ double sum_even(double array[], int n) {
         return 0;
     }
     
-    for (int i = 1; i < n; i += 2) {
+    for (int i = 0; i < n; i += 2) {
         even_sum += array[i];
     }
 
