@@ -21,5 +21,5 @@ int median_array(int array[], int n) {
         }
     }
 
-    return array[2];
+    return array[n / 2];
 }
