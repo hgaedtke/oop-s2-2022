@@ -15,6 +15,6 @@ void convert(unsigned int value) {
 }
 
 int main() {
-    unsigned int value = 21;
+    unsigned int value = 174657853;
     convert(value);
 }
