@@ -29,6 +29,10 @@ int sum_array_elements(int integers[], int length) {
     return -1;
   }
 
+  if (sum_if_palindrome(integers, length) == -2) {
+    return -2;
+  }
+
   if (is_palindrome(integers, length) == 1) {
     int sum = 0;
     for (int i = 0; i < length; i++) {
