@@ -7,7 +7,6 @@ extern int sum_array_elements(int integers[], int length);
 int main() {
     int integers[5] = {-1, 1, 0, 0, -1};
     int length = 5;
-    sum_if_palindrome(integers, length);
-    std::cout << sum_array_elements(integers, length) << std::endl;
+    std::cout << sum_if_palindrome(integers, length) << std::endl;
     return 0;
 }
