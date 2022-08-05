@@ -10,32 +10,34 @@ int sum_if_palindrome(int integers[], int length) {
       return -2;
     }
   }
+
   return 1;
 }
 
-int sum_array_elements(int integers[], int length) {
-    if (length <= 0) {
-        return 0;
-    }
+bool is_palindrome(int integers[], int length) {
+  if (sum_if_palindrome(integers, length) < 0) {
+    return 0;
+  }
 
-    int sum = 0;
-    for (int i = 0; i < length; i++) {
-        sum += integers[i];
-    }
-    return sum;
+  else {
+    return 1;
+  }
 }
 
-bool is_palindrome(int integers[], int length) {
-    if (length <= 0) {
-        return -1;
-    }
+int sum_array_elements(int integers[], int length) {
+  if (length <= 1) {
+    return -1;
+  }
 
-    if (sum_if_palindrome(integers, length) == -2) {
-        return 0;
+  if (is_palindrome(integers, length) == 1) {
+    int sum = 0;
+    for (int i = 0; i < length; i++) {
+      sum += integers[i];
     }
-
-    else {
-        std::cout << sum_array_elements(integers, length) << std::endl;
-        return 1;
-    }
+    return sum;
+  }
+  
+  else {
+    return 0;
+  }
 }
