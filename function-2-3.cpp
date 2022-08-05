@@ -15,7 +15,7 @@ int sum_if_palindrome(int integers[], int length) {
 }
 
 bool is_palindrome(int integers[], int length) {
-  if (sum_if_palindrome(integers, length) < 0) {
+  if (sum_if_palindrome(integers, length) < 0 || length <= 0) {
     return 0;
   }
 
@@ -36,7 +36,7 @@ int sum_array_elements(int integers[], int length) {
     }
     return sum;
   }
-  
+
   else {
     return 0;
   }
