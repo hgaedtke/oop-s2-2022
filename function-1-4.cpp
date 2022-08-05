@@ -7,7 +7,10 @@ void print_scaled(int array[3][3], int scale) {
             if (j < scale - 1) {
                 std::cout << array[i][j] << " ";
             }
-            if (j >= scale - 1) {
+            if (j >= scale - 1 && i < scale - 1) {
+                std::cout << array[i][j] << std::endl;
+            }
+            if (j >= scale - 1 && i == scale -1) {
                 std::cout << array[i][j];
             }
         }
