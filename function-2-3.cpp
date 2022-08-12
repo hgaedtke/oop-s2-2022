@@ -1,7 +1,5 @@
 #include <iostream>
 
-int sum = 0;
-
 bool is_array_palindrome(int integers[], int length) {
   for (int i = 0; i < length; i++) {
     if (integers[i] != integers[length - i - 1]) {
@@ -12,6 +10,7 @@ bool is_array_palindrome(int integers[], int length) {
 }
 
 int sum_integers(int integers[], int length) {
+    int sum = 0;
   for (int i = 0; i < length; i++) {
     sum += integers[i];
   }
