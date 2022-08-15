@@ -1,14 +1,6 @@
-#include <iostream>
-
-void printer(int array[10][10]) {
-    for (int i = 0; i < 10; i++) {
-        for (int j = 0; j < 10; j++) {
-            if (j < 9) {
-                std::cout << array[i][j] << " ";
-            }
-            if (j == 9) {
-                std::cout << array[i][j] << std::endl;
-            }
-        }
-    }
+int size_of_variable_star_t(){
+    int a, *p;
+    p = &a;
+    int size = sizeof(p);
+    return size;
 }
