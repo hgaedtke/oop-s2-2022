@@ -1,8 +1,12 @@
 #include <iostream>
+#include <string>
 
-extern int size_of_variable_star_t();
+extern void string_2d_copy(std::string first[][2], std::string second[][2], int n) ;
 
 int main() {
-    std::cout << size_of_variable_star_t() << std::endl;
+    std::string first[3][2] = {{"H","E"},{"Y","Y"},{"O","U"}};
+    std::string second[3][2];
+    int n = 3;
+    string_2d_copy(first, second, n);
     return 0;
 }
