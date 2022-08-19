@@ -1,5 +1,7 @@
-int size_of_variable_star_arr() {
-    int *arr = new int[3];
-    int size = sizeof(arr);
-    return size;
+#include <iostream>
+
+void copy_doubles(double *old_array, double *new_array, int length) {
+    for (int i = 0; i < length; i++) {
+        new_array = old_array;
+    }    
 }
