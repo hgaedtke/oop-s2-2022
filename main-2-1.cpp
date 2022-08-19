@@ -1,9 +1,9 @@
 #include <iostream>
 
-extern float add_op(float left, float right);
-extern float subtract_op(float left, float right);
-extern float arithmetic_ops(float left, float right, std::string op);
+extern void multiples_of_seven(int *nums, int length);
 
 int main() {
-    return 0;
+    int array[3] = {1, 2, 7};
+    int *nums = array;
+    int length = 3;
 }
