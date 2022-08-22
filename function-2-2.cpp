@@ -4,6 +4,7 @@ int max_sub_sum(int *nums, int length) {
     if (length < 1) {
         return 0;
     }
+    
   int max = 0;
   int sum = 0;
   for (int i = 1; i < length + 1; i++) {
