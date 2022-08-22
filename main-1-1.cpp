@@ -1,8 +1,11 @@
 #include <iostream>
 
-extern int size_of_variable_star_t();
+extern int *readNumbers();
+extern void printNumbers(int *numbers, int length);
 
 int main() {
-    std::cout << size_of_variable_star_t() << std::endl;
+    int num, numbers;
+    int length = 10;
+    readNumbers();
     return 0;
 }
