@@ -9,10 +9,10 @@ bool is_more_positive(int vals[], int length) {
             less1++;
         }
     }
-    if (big1 >= less1) {
+    if (big1 > less1) {
         return true;
     }
-    else {
+    if (big1 <= less1) {
         return false;
     }
 }
