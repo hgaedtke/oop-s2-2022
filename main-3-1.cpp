@@ -9,4 +9,10 @@ int main() {
     int vals2_length = 7;
     bool res = is_more_positive(vals, vals_length);
     bool res2 = is_more_positive(vals2, vals2_length);
+    if (res == true) {
+        std::cout << "vals is more positive" << std::endl;
+    }
+    else {
+        std::cout << "vals is not more positive" << std::endl;
+    }
 }
