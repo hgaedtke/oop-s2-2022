@@ -1,8 +1,8 @@
 #include <iostream>
 
-extern int size_of_variable_star_t();
+extern int *array_pad(int *vals, int len);
 
 int main() {
-    std::cout << size_of_variable_star_t() << std::endl;
-    return 0;
+    int vals[] = {1, 2, 3, 4, 5};
+    int *pv = array_pad(vals, 5);
 }
