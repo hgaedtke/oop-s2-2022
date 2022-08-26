@@ -3,6 +3,19 @@
 
 using namespace std;
 
-int get_val() {
+ModCounter::ModCounter(int init, int bound) {
     
 }
+
+int ModCounter::get_val() {
+
+}
+
+void ModCounter::increment() {
+    
+}
+
+void ModCounter::decrement() {
+
+}
+
