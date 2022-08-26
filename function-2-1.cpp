@@ -7,10 +7,10 @@ string get_temp_phase(int temp) {
     if (temp <= 273) {
         return "ice";
     }
-    if (273 < temp <= 373) {
+    if (temp > 273 && temp <= 373) {
         return "liquid";
     }
-    if (373 < temp <= 4700) {
+    if (temp > 373 && temp <= 4700) {
         return "gas";
     }
     else {
