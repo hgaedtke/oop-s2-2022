@@ -10,5 +10,5 @@ int *array_pad(int *vals, int len) {
         pv[i + 1] = vals[i];
     }
     pv[6] = vals[4];
-    return 0;
+    return pv;
 }
