@@ -10,7 +10,6 @@ Capybara::Capybara(){
 }
 
 void Capybara::setName(string capyName){
-    cout << "Enter Capybara's Name: ";
     getline(cin, capyName);
 }
 
@@ -20,7 +19,6 @@ string Capybara::getName(){
 }
 
 void Capybara::setAge(int capyAge){
-    cout << "Enter Capybara's Age: ";
     cin >> capyAge;
 }
 

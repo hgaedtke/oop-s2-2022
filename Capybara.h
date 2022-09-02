@@ -5,8 +5,8 @@ using namespace std;
 
 class Capybara {
  protected:
-  string capyName;
-  int capyAge;
+  string capyName = "";
+  int capyAge = 0;
 
  public:
   Capybara();
