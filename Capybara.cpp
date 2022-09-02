@@ -14,7 +14,6 @@ void Capybara::setName(string capyName){
 }
 
 string Capybara::getName(){
-    cout << "Name: " << capyName;
     return capyName;
 }
 
@@ -23,6 +22,5 @@ void Capybara::setAge(int capyAge){
 }
 
 int Capybara::getAge(){
-    cout << "Age: " << capyAge;
     return capyAge;
 }
