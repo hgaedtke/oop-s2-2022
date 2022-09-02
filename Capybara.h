@@ -3,10 +3,15 @@
 
 using namespace std;
 
-class Capybara{
-    Capybara();
-    void setName(string capyName);
-    string getName();
-    void setAge(int capyAge);
-    int getAge();
+class Capybara {
+ protected:
+  string capyName;
+  int capyAge;
+
+ public:
+  Capybara();
+  void setName(string capyName);
+  string getName();
+  void setAge(int capyAge);
+  int getAge();
 };
