@@ -4,11 +4,6 @@
 
 using namespace std;
 
-Person::Person(int mySalary, string myName) {
-    mySalary = mySalary;
-    myName = myName;
-}
-
 void setName(string myName) {
 }
 
@@ -26,4 +21,9 @@ int getSalary() {
     int mySalary = 0;
     cin >> mySalary;
     return mySalary;
+}
+
+Person::Person(int mySalary, string myName) {
+    getName();
+    getSalary();
 }

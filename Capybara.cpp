@@ -5,8 +5,8 @@
 using namespace std;
 
 Capybara::Capybara(){
-    setName(capyName);
-    setAge(capyAge);
+    string capyName = getName();
+    int capyAge = getAge();
 }
 
 void Capybara::setName(string capyName){
