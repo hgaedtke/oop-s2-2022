@@ -1,8 +1,10 @@
 #include <iostream>
-
-extern int *array_pad(int *vals, int len);
+#include <string>
+#include "Musician.h"
 
 int main() {
-    int vals[] = {1, 2, 3, 4, 5};
-    int *pv = array_pad(vals, 5);
+    Musician a;
+    Musician();
+
+
 }
