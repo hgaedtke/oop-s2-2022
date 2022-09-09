@@ -9,9 +9,19 @@ Bike::Bike(){
     string brand = "";
 }
 
-Bike::Bike(string brand, int code){
+int Bike::create_code(){
     cin >> code;
+    return code;
+}
+
+string Bike::create_brand(){
     cin >> brand;
+    return brand;
+}
+
+Bike::Bike(string brand, int code){
+    brand = create_brand();
+    code = create_code();
 }
 
 string Bike::get_brand(){
