@@ -7,6 +7,7 @@ using namespace std;
 class Bike_yard{
     public:
     int capacity;
+    int max_capacity;
     Bike_yard();
     Bike_yard(int capacity);
     int get_total_stock_count();
