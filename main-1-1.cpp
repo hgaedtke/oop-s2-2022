@@ -1,8 +1,14 @@
 #include <iostream>
+#include <string>
+#include "Bike.h"
 
-extern int *array_pad(int *vals, int len);
+using namespace std;
 
 int main() {
-    int vals[] = {1, 2, 3, 4, 5};
-    int *pv = array_pad(vals, 5);
+    Bike a;
+    Bike();
+    a.brand = "Spider";
+    a.code = 1;
+    Bike(a.brand, a.code);
+    return 0;
 }
