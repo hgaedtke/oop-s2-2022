@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main() {
-    
-
-}
+class Person: public Player{
+    public:
+    void move();
+};
