@@ -5,8 +5,8 @@
 using namespace std;
 
 Bike::Bike(){
-    code = 5;
-    brand = "honda";
+    code = 0;
+    brand = "";
 }
 
 int Bike::create_code(){
