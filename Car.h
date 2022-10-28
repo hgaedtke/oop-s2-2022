@@ -11,8 +11,6 @@ int price;
 int vinNumber;
 int emissions;
 int cost;
-
-protected:
 int get_price();
 int get_emissions();
 int get_vinNumber();
