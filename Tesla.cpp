@@ -2,7 +2,10 @@
 #include <iostream>
 
 void Tesla::drive(int kms){
-
+    batteryPercentage -= 0.2;
+    if (batteryPercentage > 0) {
+        emissions += 74;
+    }
 }
 
 Tesla::Tesla(char model, int price){
