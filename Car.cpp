@@ -3,6 +3,10 @@
 
 using namespace std;
 
+void Car::drive(int kms) {
+
+}
+
 Car::Car(int price) {
     Car::price = price;
     Car::emissions = 0;
