@@ -1,12 +1,8 @@
-#include <string>
-#include <iostream>
+#include "Tesla.h"
 
 using namespace std;
 
-extern string get_temp_phase(int temp);
-
 int main() {
-    int temp = 2;
-    cout << "phase at" << temp << "K is: " << get_temp_phase(temp) << endl;
+    Tesla a;
     return 0;
 }
