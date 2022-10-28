@@ -12,12 +12,13 @@ void Tesla::drive(int kms){
     }
 }
 
+int index = 0;
+
 Tesla::Tesla(char model, int price){
     Tesla::model = model;
     Car::price = price;
     Car::emissions = 0;
     Tesla::batteryPercentage = 100;
-    int index = 0;
     vinNumber = 1000001 + index;
     index++;
 }
