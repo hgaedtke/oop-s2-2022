@@ -9,7 +9,6 @@ class Player{
     virtual void move() = 0;
     string getMoves();
     char getMove();
-    char getCompMove();
     bool win(Player * opponent);
     char play;
     char compPlay;

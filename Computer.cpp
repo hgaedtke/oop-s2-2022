@@ -5,7 +5,7 @@
 using namespace std;
 
 Computer::Computer(string letter){
-    opponent = 'r';
+    play = letter[0];
 }
 
 void Computer::move(){

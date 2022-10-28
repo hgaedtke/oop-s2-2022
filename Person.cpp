@@ -6,9 +6,9 @@
 using namespace std;
 
 void Person::move() {
-  while (player != 'r', 'R', 'p', 'P', 's', 'S') {
+  while (player != 'r') {
     cin >> player;
-    if (player != 'r', 'R', 'p', 'P', 's', 'S') {
+    if (player != 'r') {
       cout << "Move unavailable" << endl;
     }
   }

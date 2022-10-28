@@ -15,17 +15,12 @@ string Player::getMoves(){
     return play_str;
 }
 
-char Player::getCompMove(){
-    compPlay = opponent;
-    return compPlay;
-}
-
 char Player::getMove(){
     return play;
 }
 
 bool Player::win(Player * opponent){
-    if (getMove() == getCompMove()){
+    if (play == opponent->getMove()){
         return 0;
     }
     else {
