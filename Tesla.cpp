@@ -15,7 +15,9 @@ Tesla::Tesla(char model, int price){
     Tesla::model = model;
     Car::price = price;
     Tesla::batteryPercentage = 100;
-    vinNumber = 1000001;
+    int index = 0;
+    vinNumber = 1000001 + index;
+    index++;
 }
 
 void Tesla::chargeBattery(int mins){
