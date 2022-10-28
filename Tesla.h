@@ -13,7 +13,7 @@ public:
     void drive(int kms);
 
     char get_model();
-    int get_batteryPercentage();
+    float get_batteryPercentage();
     void set_model();
     void set_batteryPercentage();
 
