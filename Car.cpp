@@ -11,11 +11,6 @@ Car::Car(){
 
 }
 
-Car::Car(int price) {
-    Car::price = price;
-    Car::emissions = 0;
-}
-
 int Car::get_price() {
     return price;
 }
