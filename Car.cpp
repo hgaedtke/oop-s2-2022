@@ -7,6 +7,10 @@ void Car::drive(int kms) {
 
 }
 
+Car::Car(){
+
+}
+
 Car::Car(int price) {
     Car::price = price;
     Car::emissions = 0;
@@ -16,25 +20,22 @@ int Car::get_price() {
     return price;
 }
 
-int Car::set_price(int price) {
+void Car::set_price(int price) {
     Car::price = price;
-    return Car::price;
 }
 
 int Car::get_emissions() {
     return emissions;
 }
 
-int Car::set_emissions(int emissions) {
+void Car::set_emissions(int emissions) {
     Car::emissions = emissions;
-    return Car::emissions;
 }
 
 int Car::get_vinNumber() {
     return vinNumber;
 }
 
-int Car::set_vinNumber(int vinNumber) {
+void Car::set_vinNumber(int vinNumber) {
     Car::vinNumber = vinNumber;
-    return Car::vinNumber;
 }
