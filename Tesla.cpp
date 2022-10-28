@@ -8,6 +8,7 @@ void Tesla::drive(int kms){
     }
     if (batteryPercentage < 0) {
         batteryPercentage = 0;
+        emissions = 37000;
     }
 }
 
