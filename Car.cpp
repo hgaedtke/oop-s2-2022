@@ -6,7 +6,6 @@ using namespace std;
 Car::Car(int price) {
     Car::price = price;
     Car::emissions = 0;
-    Car::vinNumber;
 }
 
 int Car::get_price() {
