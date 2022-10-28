@@ -34,7 +34,7 @@ char Tesla::get_model() {
     return model;
 }
 
-int Tesla::get_batteryPercentage() {
+float Tesla::get_batteryPercentage() {
     return batteryPercentage;
 }
 
