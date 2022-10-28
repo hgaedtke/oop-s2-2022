@@ -2,7 +2,7 @@
 #include <iostream>
 
 void Tesla::drive(int kms){
-    batteryPercentage = 100 - (kms * 0.2);
+    batteryPercentage = 100 - (float(kms) * 0.2);
     if (batteryPercentage > 0) {
         emissions += 74;
     }
