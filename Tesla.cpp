@@ -5,10 +5,6 @@ void Tesla::drive(int kms){
 
 }
 
-Tesla::Car::Car(){
-    
-}
-
 Tesla::Tesla(char model, int price){
     Tesla::model = model;
     Car::price = price;
