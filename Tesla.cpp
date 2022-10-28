@@ -21,11 +21,11 @@ void Tesla::chargeBattery(int mins){
 
 int VinNumber = 1000001;
 
-char get_model() {
+char Tesla::get_model() {
     return model;
 }
 
-int get_batteryPercentage() {
+int Tesla::get_batteryPercentage() {
     return batteryPercentage;
 }
 
