@@ -35,5 +35,6 @@ int Car::get_vinNumber() {
 }
 
 int Car::set_vinNumber(int vinNumber) {
+    Car::vinNumber = vinNumber;
     return Car::vinNumber;
 }
