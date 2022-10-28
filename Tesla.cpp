@@ -4,11 +4,7 @@
 int vinNumber = 1000001;
 
 void Tesla::drive(int kms){
-    int tripkms = 0;
-    if (kms > tripkms){
-        batteryPercentage -= 0.2;
-    }
-
+    batteryPercentage = 100 - (kms * 0.2);
     if (batteryPercentage > 0) {
         emissions += 74;
     }
