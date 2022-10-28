@@ -5,6 +5,7 @@ int vinNumber = 1000001;
 
 void Tesla::drive(int kms){
     batteryPercentage = 100 - (kms * 0.2);
+    emissions = 0;
     if (batteryPercentage > 0) {
         emissions += 74;
     }
@@ -22,6 +23,9 @@ Tesla::Tesla(char model, int price){
 
 void Tesla::chargeBattery(int mins){
     batteryPercentage += mins * 0.5;
+    if (batteryPercentage > 100) {
+        batteryPercentage = 100;
+    }
 }
 
 char Tesla::get_model() {
