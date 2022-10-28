@@ -2,7 +2,7 @@
 #include <iostream>
 
 void Tesla::drive(int kms){
-    batteryPercentage -= 0.2;
+    batteryPercentage = kms * -0.2;
     if (batteryPercentage > 0) {
         emissions += 74;
     }
@@ -15,7 +15,7 @@ Tesla::Tesla(char model, int price){
 }
 
 void Tesla::chargeBattery(int mins){
-    batteryPercentage = mins * 0.5;
+    batteryPercentage += mins * 0.5;
 }
 
 int VinNumber = 1000001;
